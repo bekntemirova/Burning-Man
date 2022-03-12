@@ -1,0 +1,143 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: #000;
+  font-family: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+header a {
+  color: #fff;
+}
+.logo {
+  margin-right: 69px;
+}
+.header {
+  background: url("../img/header-bg.jpg") no-repeat center top;
+  padding-top: 57px;
+  height: 100vh;
+}
+header a {
+  color: #ccc;
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.menu li {
+  margin-right: 40px;
+}
+.tel {
+  margin-left: auto;
+  font-size: 17px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.offer {
+  text-transform: uppercase;
+  margin-top: 216px;
+}
+.offer p {
+  font: size 30px;
+  letter-spacing: 00.1em;
+  color: #ccc;
+}
+.offer h2 {
+  font-size: 100px;
+  margin-bottom: 19px;
+  margin-top: -9px;
+  letter-spacing: 0.02em;
+  color: #ccc;
+}
+
+.btn {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 00.1em;
+  border: 1px solid #fff;
+  width: 238px;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding-top: 113px;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+.description p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
+}
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+h3 {
+  font-size: 25px;
+}
+.dest-right,
+.desc-left {
+  width: 567px;
+}
+.gallery {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+}
+.footer-text p {
+  margin-top: 100px;
+  margin-right: 60px;
+  padding: 114px 0;
+}
